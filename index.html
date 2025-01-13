@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OficinaDosClassicos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Oficina dos Clássicos</h1>
+            <img src="./img/emb1.jpg" alt="Emblema GM">
+            <img src="./img/emb3.jpg" alt="Emblema Mechanic">
+            <img src="./img/emb2.jpg" alt="Emblema FORD">
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#secao1">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#secao2">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carousel-imagens">
+            <img src="./Img/img_slide1.png" alt="GM Opala Black">
+            <img src="./Img/img_slide1.png" alt="GM Opala Silver">
+        </div>
+    </section>
+
+    <section id="secao1">
+        <div class="container">
+            <h1 class="section-header">Sobre Nós</h1>
+            <p>
+                Bem-vindo à Oficina dos Clássicos! Somos apaixonados por carros antigos e dedicados a restaurar veículos clássicos com exelência. 
+            </p>
+            <p>
+                Em cada curva, uma história. Em cada motor, uma alma. Na nossa oficina, restauramos clássicos, preservando a paixão e a tradição automotiva. Acreditamos que um carro clássico não é apenas um meio de transporte, mas uma obra de arte que merece ser admirada e cuidada. Venha reviver a emoção de dirigir um veículo com história e transformar seu sonho em realidade.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div id="carousel-imagens1">
+            <img src="./Img/img_slide2.png" alt="FORD pick-up">
+            <img src="./Img/img_slide2.png" alt="FORD pick-up">
+        </div>
+    </section>
+
+    <section id="secao2">
+  
+        <h1 class="section-header">Contato</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NOME COMPLETO" name="name">
+              </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="tel" class="form-control" id="tel" placeholder="CELULAR" name="tel">
+                </div>
+              </div>
+
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email">
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MENSAGEM" name="message"></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">ENVIAR</span>
+                </div>            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x">
+                    <span class="contact-text place">São Paulo, Brasil</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone">
+                    <a href="https://wa.me/5511976700170" title="Celular e whatsapp">+55 (11) 97670-0170</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail">
+                    <a href="mailto:renanjustinodev@gmail.com" title="Envia-me um email">renanjustinodev@gmail.com</a></span></i></li>                
+              </ul>
+      
+              <hr>
+            
+              <ul class="social-media-list">
+                <li><a href="https://github.com/RenanDev23" target="_blank" 
+                    class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/renan-justino-07b976286/" target="_blank" class="contact-icon">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://wa.me/5511976700170" target="_blank" class="contact-icon">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy;Direitos reservados @RenanJustinoDev</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+      
+</body>
+</html>
